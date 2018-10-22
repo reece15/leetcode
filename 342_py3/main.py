@@ -12,4 +12,3 @@ class Solution:
         return data.startswith("100") and (data[3:].count("0") % 2 == 0 and data[3:].count("1") == 0)
 
 
-    
